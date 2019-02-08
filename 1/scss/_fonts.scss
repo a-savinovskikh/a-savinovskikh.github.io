@@ -1,0 +1,12 @@
+@import '_mixins/font-face';
+
+@include font-face('Gotham-font', '../fonts/GothamBold/GothamBold', bold);
+@include font-face('Gotham-font', '../fonts/GothamMedium/GothamMedium');
+@include font-face('Gotham-font', '../fonts/GothamBook/GothamBook', 300);
+
+@include font-face('OpenSans-font', '../fonts/OpenSansBold/OpenSansBold', bold);
+@include font-face('OpenSans-font', '../fonts/OpenSansRegular/OpenSansRegular');
+
+@include font-face('RobotoCondensedBold-font', '../fonts/RobotoCondensedBold/RobotoCondensedBold');
+
+@include font-face('MyriadProRegular-font', '../fonts/MyriadProRegular/MyriadProRegular');

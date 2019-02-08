@@ -1,0 +1,47 @@
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  a {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+
+    &::after, &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(#fff, .3);
+      transition: all .7s ease;
+    }
+
+    &:hover::after {
+      left: 100%;
+      background-color: rgba(#fff, .3);
+    }
+
+    &:hover::before {
+      right: 100%;
+    }
+
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    flex-direction: column;
+
+    a {
+      width: 90%;
+    }
+  }
+}
