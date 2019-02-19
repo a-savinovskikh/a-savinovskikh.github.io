@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("PTSans", "../fonts/PTSans-Regular/PTSans-Regular");
+@include font-face("Ubuntu", "../fonts/Ubuntu/Ubuntu");
+@include font-face("Ubuntu", "../fonts/Ubuntu-Medium/Ubuntu-Medium", 500);
