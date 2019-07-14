@@ -1,6 +1,0 @@
-@import "_mixins/font-face";
-
-@include font-face("OpenSans", "../fonts/OpenSans-Regular/OpenSans-Regular");
-@include font-face("OpenSans", "../fonts/OpenSans-Semibold/OpenSans-Semibold", 600);
-@include font-face("OpenSans", "../fonts/OpenSans-Bold/OpenSans-Bold", 700);
-@include font-face("OpenSans", "../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold", 800);
