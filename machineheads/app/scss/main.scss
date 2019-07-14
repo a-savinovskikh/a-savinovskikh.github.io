@@ -115,7 +115,6 @@ li {
 	padding-bottom: 12px;
 	position: relative;
 	z-index: 100;
-	transition: 0.4s all ease;
 }
 
 .header-top-row {
@@ -198,7 +197,7 @@ li {
 
 .header-bottom {
 	.header-nav {
-		height: 23px;
+		height: auto;
 		transition: 0.25s ease all;
 	}
 }
@@ -333,7 +332,9 @@ li {
 }
 
 // main
-
+.page-content {
+	transition: 0.25s ease padding;
+}
 .banner {
 	height: 500px;
 	background-position: top right -54px;

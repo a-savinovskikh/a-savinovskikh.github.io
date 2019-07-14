@@ -10240,9 +10240,6 @@ li {
   padding-bottom: 12px;
   position: relative;
   z-index: 100;
-  -webkit-transition: 0.4s all ease;
-  -o-transition: 0.4s all ease;
-  transition: 0.4s all ease;
 }
 
 .header-top-row {
@@ -10347,7 +10344,7 @@ li {
 }
 
 .header-bottom .header-nav {
-  height: 23px;
+  height: auto;
   -webkit-transition: 0.25s ease all;
   -o-transition: 0.25s ease all;
   transition: 0.25s ease all;
@@ -10499,6 +10496,12 @@ li {
   -webkit-transition: 0.25s ease all;
   -o-transition: 0.25s ease all;
   transition: 0.25s ease all;
+}
+
+.page-content {
+  -webkit-transition: 0.25s ease padding;
+  -o-transition: 0.25s ease padding;
+  transition: 0.25s ease padding;
 }
 
 .banner {
