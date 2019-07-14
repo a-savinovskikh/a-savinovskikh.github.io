@@ -1,0 +1,4 @@
+@import "_mixins/font-face";
+
+@include font-face("Aeroport", "../fonts/Aeroport-Light/Aeroport-Light", 300);
+@include font-face("Aeroport", "../fonts/Aeroport-Medium/Aeroport-Medium", 500);

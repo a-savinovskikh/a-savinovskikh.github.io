@@ -1,0 +1,84 @@
+@import "vars";
+
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	.catalog {
+		.h2 {
+			margin-top: 30px;
+			text-align: center;
+		}
+	}
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+
+	.main-header-nav {
+		a {
+			font-size: 16px;
+			padding: 12px 15px;
+		}
+	}
+
+	.tabs-wrapper {
+		dd {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.tab-content {
+			margin-top: 20px;
+
+			.h3 {
+				text-align: center;
+			}
+		}
+	}
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+	.main-header-number {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.main-header-slider-item {
+		min-height: 300px;
+	}
+
+	.main-header-nav {
+		ul {
+			flex-direction: column;
+		}
+
+		a {
+			padding: 12px 25px;
+		}
+
+		.container {
+			padding: 0;
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+
+	.tabs-wrapper {
+
+		dd {
+			.tab-content {
+				padding: 0 5px;
+
+				p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+
+}

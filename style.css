@@ -1,0 +1,48 @@
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.links a {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+.links a::after, .links a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+}
+.links a:hover::after {
+  left: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.links a:hover::before {
+  right: 100%;
+}
+.links img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .links a {
+    width: 90%;
+  }
+}
