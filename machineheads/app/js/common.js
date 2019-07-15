@@ -17,7 +17,6 @@ $(function() {
       content.css({'padding-top':header.outerHeight()});
     } else {
       header.removeClass('header-fixed-style');
-      console.log(header.outerHeight());
       content.css({'padding-top':header.outerHeight()});
     }
   }
